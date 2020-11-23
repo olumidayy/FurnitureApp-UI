@@ -1,14 +1,7 @@
-# Team10-week2
-E-commerce  portal for used furniture sale.
+# Furniture App UI
 
-# Frontenders
-- Fork the main repo
-- Clone your fork to your device
-- *When done with making your changes:*
-- Make a Pull from the main repo to get recent changes
-- Confirm your changes still work fine
-- Push to your forked repo
-- Make a PR to the main repo
-  - Explain what your pull request does
-  - Add screenshots of your changes(on the webpage not the code)
-# FurnitureApp-UI
+| - | - | - |
+|:---:|:---:|:---:|
+|![img](screenshots/0.png)|![img](screenshots/1.png)|![img](screenshots/2.png)|
+|![img](screenshots/3.png)|![img](screenshots/4.png)|![img](screenshots/5.png)|
+|<img src="screenshots/6.png" alt="delete" width="300"/>|<img src="screenshots/7.png" alt="share" width="300"/>||

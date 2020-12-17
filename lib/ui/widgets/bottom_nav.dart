@@ -73,26 +73,26 @@ class BottomNavPainter extends CustomPainter {
     _drawBackground(canvas, shapeBounds, avatarBounds);
   }
 
-  //5
+  
   @override
   bool shouldRepaint(BottomNavPainter oldDelegate) {
     return color != oldDelegate.color;
   }
 
   void _drawBackground(Canvas canvas, Rect shapeBounds, Rect avatarBounds) {
-    //1
+    
     final paint = Paint()..color = color;
 
-    //2
+    
     final backgroundPath = Path()
-      ..moveTo(shapeBounds.left, shapeBounds.top) //4
-      ..arcTo(avatarBounds, pi, -pi, false) //5//3
-      ..lineTo(shapeBounds.topRight.dx, shapeBounds.topRight.dy) //6
-      ..lineTo(shapeBounds.bottomRight.dx, shapeBounds.bottomRight.dy) //6
+      ..moveTo(shapeBounds.left, shapeBounds.top)
+      ..arcTo(avatarBounds, pi, -pi, false)
+      ..lineTo(shapeBounds.topRight.dx, shapeBounds.topRight.dy)
+      ..lineTo(shapeBounds.bottomRight.dx, shapeBounds.bottomRight.dy)
       ..lineTo(shapeBounds.bottomLeft.dx, shapeBounds.bottomLeft.dy)
-      ..close(); //8
+      ..close();
 
-    //9
+    
     canvas.drawPath(backgroundPath, paint);
   }
 }
